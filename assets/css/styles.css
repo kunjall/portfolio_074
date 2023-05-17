@@ -7,7 +7,7 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
+  --hue-color: 260;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
@@ -75,7 +75,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: red;
+  color: rgb(142, 68, 142);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -90,7 +90,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: red;
+  background-color: rgb(142, 68, 142);
 }
 
 .section {
@@ -189,7 +189,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: red;
+  background-color: rgb(142, 68, 142);
 }
 
 .nav__logo {
@@ -210,7 +210,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: red;
+  background-color: rgb(142, 68, 142);
 }
 
 /*=== Show menu ===*/
@@ -235,7 +235,7 @@ img {
 }
 
 .home__title-color {
-  color: red;
+  color: rgb(142, 68, 142);
 }
 
 .home__social {
@@ -251,7 +251,7 @@ img {
 }
 
 .home__social-icon:hover {
-  color: red;
+  color: rgb(142, 68, 142);
 }
 
 .home__img {
@@ -262,7 +262,7 @@ img {
 }
 
 .home__blob {
-  fill: red;
+  fill: rgb(142, 68, 142);
 }
 
 .home__blob-img {
@@ -272,7 +272,7 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: red;
+  background-color: rgb(142, 68, 142);
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -332,7 +332,7 @@ img {
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: red;
+  color: rgb(142, 68, 142);
 }
 
 .skills__names {
@@ -344,7 +344,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: red;
+  background-color: rgb(142, 68, 142);
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
